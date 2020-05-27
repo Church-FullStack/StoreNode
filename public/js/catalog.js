@@ -2,7 +2,7 @@ var serverURL = "http://localhost:8080";
 var items=[];
 function fetchCatalog(){
     $.ajax({
-        url: serverURL+"/api/items",
+        url: serverURL+"/api/items/Christopher",
         type:"GET",
         success:function(res){
             console.log("works",res);
